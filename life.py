@@ -16,7 +16,7 @@ DEAD = ' '
 
 def print_board(board):
     for i, row in enumerate(board):
-        print(term.move(i, 0) + ' '.join(row))
+        print(term.move(i, 0) + ' '.join(row), end="", flush=True)
 
 
 def get_num_neighbours(board, y, x):
