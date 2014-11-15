@@ -61,7 +61,7 @@ if __name__ == '__main__':
     board = [random_row() for _ in range(WINDOW_HEIGHT)]
 
     print(term.clear)
-    with term.location():
+    with term.fullscreen():
         while True:
             print_board(board)
             time.sleep(.07)
