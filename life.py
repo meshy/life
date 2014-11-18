@@ -23,14 +23,10 @@ def get_num_neighbours(board, y, x):
     above, below = y - 1, y + 1
     left, right = x - 1, x + 1
 
-    above += WINDOW_HEIGHT
     above %= WINDOW_HEIGHT
-    below += WINDOW_HEIGHT
     below %= WINDOW_HEIGHT
 
-    left += WINDOW_WIDTH
     left %= WINDOW_WIDTH
-    right += WINDOW_WIDTH
     right %= WINDOW_WIDTH
 
     combinations = list(product([above, y, below], [left, x, right]))
