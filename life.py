@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import random
 import time
 from functools import partial
