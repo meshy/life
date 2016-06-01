@@ -8,7 +8,7 @@ Anyway.
 
 First, create a **python 3** virtual environment. Once it's active, run:
 
-    pip install -r requiremtents.txt
+    pip install -r requirements.txt
 
 Once that's done, you should be good to go!
 
